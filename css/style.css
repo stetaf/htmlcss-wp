@@ -43,7 +43,6 @@ header, footer, .imgSlideshow, .articleContent, .mainArticle {
 
 header {
     height: 120px;
-    /* background-color: lightskyblue; */
 }
 
 footer {
@@ -69,8 +68,12 @@ nav {
 }
 
 .imgSlideshow {
-    height: 400px;
-    background-color: darkturquoise;
+    height: 320px;
+    background-image: url('../img/banner.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 10px;
 }
 
 .articleContent {
