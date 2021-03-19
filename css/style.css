@@ -1,0 +1,101 @@
+/* Functional */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+/* /Functional */
+
+
+/* Page */
+body {
+    background-color:aquamarine
+}
+
+header, footer, .imgSlideshow, .articleContent, .mainArticle {
+    width: 100%;
+}
+
+.pageContent {
+    width: 80%;
+    margin: auto;
+    background-color: cadetblue;
+}
+
+header {
+    height: 120px;
+    background-color: lightskyblue;
+}
+
+footer {
+    height: 90px;
+    background-color: mediumaquamarine;
+}
+
+nav {
+    height: 100%;
+}
+
+.myLogo {
+    width:150px;
+    height: 60%;
+    background-color: darkblue;
+}
+
+.menuOptions {
+    height: 40%;
+    background-color: darkcyan;
+}
+
+.imgSlideshow {
+    height: 400px;
+    background-color: darkturquoise;
+}
+
+.articleContent {
+    height: 550px;
+    background-color: darkslategray;
+}
+
+.articleTitle {
+    height: 15%;
+    background-color: dodgerblue;
+}
+
+.mainArticle {
+    height: 85%;
+}
+
+.centerColumn {
+    height: 100%;
+    width: 50%;
+    background-color: teal;
+    float: left;
+}
+
+.leftColumn, .rightColumn {
+    height: 100%;
+    width: 25%;
+    background-color: lightskyblue;
+    float: left;
+}
+
+.sideImg, .centerImg {
+    height: 150px;
+    width: 100%;
+}
+
+.sideImg {
+    background-color: midnightblue;
+}
+
+.centerImg {
+    background-color: navy;
+}
+/* /Page */
