@@ -76,6 +76,25 @@ nav {
     border-radius: 10px;
 }
 
+.imgTitle1 {
+    padding-top: 30%;
+    margin-left: 5%;
+    width: 55%;
+    font-size: 20px;
+    color: white;
+}
+
+.imgTitle2 {
+    margin-left: 5%;
+    width: 50%;
+    font-size: 12px;
+    color: white;
+}
+
+.imgTitle2::after {
+    content: '...';
+}
+
 .articleContent {
     height: 550px;
     background-color: darkslategray;
@@ -84,6 +103,11 @@ nav {
 .articleTitle {
     height: 15%;
     background-color: dodgerblue;
+}
+
+.articleTitle h1{
+    margin-top: 15px;
+    font-size: 25px;
 }
 
 .mainArticle {
